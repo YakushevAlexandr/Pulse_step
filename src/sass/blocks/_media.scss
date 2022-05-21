@@ -1,0 +1,148 @@
+@media (max-width: 991px) { 
+    .promo {
+
+        
+        
+        &__header {
+            font-size: 40px;
+
+        }
+        &__subheader {
+            font-size: 23px;
+
+        }
+    }
+     
+
+    .header {
+        &__logo{
+            width: 240px;
+        }
+
+        &__official {
+            font-size: 11px;
+                span {
+                    font-size: 17px;
+                   
+                }  
+            
+        }
+
+        &__phone {
+            font-size: 17px;
+        }
+
+    }
+    .button {
+        font-size: 11px;
+        &_main {
+            font-size: 16px;}
+    }
+}
+
+.advantage {
+    &__descr{
+        width: 253px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            align-items: center
+
+        }
+
+    }
+
+
+    .header {
+        &__logo{
+            width: 240px;
+        }
+
+        &__official {
+            display: none;
+                            
+        }
+
+        &__phone {
+            font-size: 17px;
+        }
+
+    }
+
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-bottom: 40px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        &__item {
+            font-size: 20px; 
+        }
+        img {
+            height: 80px;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .promo {
+        background: url('../../img/bg2.png') center (center/cover) no-repeat;
+        &__header {
+            font-size: 23px;
+        }
+
+        &__subheader {
+            font-size: 17px;
+            text-align: center;    
+        }
+
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__icon {
+            margin-bottom: 20px;
+            img {
+                margin-bottom: 0px;
+            }
+        }
+
+
+    .header  {
+        flex-direction: column;
+        align-items: center;
+        &__contacts{
+            margin-top: 20px;
+            align-items: center;
+        }
+        &__logo {
+            width: 250px;
+        }
+        &__phone {
+            font-size: 20px;
+        }
+    }
+    .button {
+        font-size: 15px;
+        width: 175px;
+    }
+
+    }
+        
+
+
+
+
+
+}
