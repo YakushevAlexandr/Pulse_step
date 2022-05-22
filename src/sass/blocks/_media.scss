@@ -1,53 +1,80 @@
 @media (max-width: 991px) { 
-    .promo {
 
-        
-        
+	div.consultation {
+		&__descr {
+			color: red;
+		}
+	}
+
+
+
+
+
+
+    .promo {
         &__header {
             font-size: 40px;
-
         }
         &__subheader {
             font-size: 23px;
-
         }
     }
-     
 
     .header {
         &__logo{
             width: 240px;
         }
-
         &__official {
             font-size: 11px;
                 span {
                     font-size: 17px;
-                   
-                }  
-            
+                }
         }
-
         &__phone {
             font-size: 17px;
-        }
-
+            }
     }
+
     .button {
         font-size: 11px;
         &_main {
-            font-size: 16px;}
+            font-size: 16px;
+        }
     }
+
+    .advantage {
+        &__descr {
+          width: 253px;
+        }
+    }
+
+    .title {
+        &_left {
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+
+
 }
 
-.advantage {
-    &__descr{
-        width: 253px;
-
-    }
-}
-
+              
+            
 @media (max-width: 767px) {
+
+	div.consultation {
+		&__descr {
+			color: rgb(30, 219, 131);
+		}
+	}
+
+
+
+
+
+
+
+
     .promo {
         &__wrapper {
             align-items: center
@@ -92,11 +119,42 @@
         }
     }
 
-}
+    .title {
+        &_left{
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+    
+     
+     
+}     
+
+ /*    .feed-form{
+		margin: 0 auto;
+	}
+ */
+
 
 @media (max-width: 575px) {
+
+
+	div.consultation {
+		&__descr {
+			color: rgb(0, 47, 255);
+		}
+	}
+
+	  
+    
+
+	.feed-form{
+		margin: 0 auto;
+	}
+
+
     .promo {
-        background: url('../../img/bg2.png') center (center/cover) no-repeat;
+        background: url('../img/bg2.png') center (center/cover) no-repeat;
         &__header {
             font-size: 23px;
         }
